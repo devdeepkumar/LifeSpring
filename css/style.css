@@ -18367,7 +18367,9 @@ footer .subscribe-form1.v6 .form-group{
   padding-block: 50px;
   margin-top: 100px;
 }
-
+.hero-form{
+  padding-right: 0;
+}
 @media (max-width:991px){
   .bg-second{
     margin-top: 0;
@@ -18404,5 +18406,8 @@ footer .subscribe-form1.v6 .form-group{
 
   .widget-area.v6 .container-style6.space{
     padding-bottom: 0;
+  }
+  .hero-form{
+    padding-inline: 0;
   }
 }
