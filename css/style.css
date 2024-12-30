@@ -1077,8 +1077,9 @@ textarea.form-control.is-invalid {
   transition: all ease 0.8s;
 }
 .vs-menu-wrapper .mobile-logo {
-  padding-bottom: 25px;
-  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: -50px;
   display: inline-block;
 }
 .vs-menu-wrapper .vs-menu-toggle {
@@ -1123,7 +1124,7 @@ textarea.form-control.is-invalid {
   right: 0;
   top: 0;
   height: 100%;
-  background-color: var(--theme-color);
+  /* background-color: var(--theme-color); */
   opacity: 0.1;
   z-index: -1;
 }
@@ -1146,7 +1147,6 @@ textarea.form-control.is-invalid {
   overflow-y: scroll;
   max-height: 58vh;
   padding-bottom: 40px;
-  margin-top: 33px;
   text-align: left;
 }
 .vs-mobile-menu .new-label {
