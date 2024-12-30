@@ -113,7 +113,7 @@ Version: 1.0.0
 /*------------------- 1.4. Typography -------------------*/
 html,
 body {
-  scroll-behavior: auto !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
