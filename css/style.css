@@ -14589,14 +14589,7 @@
  .accordion-style2 .accordion-button.collapse:before {
      background-color: red;
 }
- .vs-accordion.two {
-     position: absolute;
-     top: 10px;
-     left: 0;
-     width: 783px;
-    /* Medium Large devices */
-    /* Large devices */
-}
+
  @media (max-width: 1399px) {
      .vs-accordion.two {
          width: 784px;
@@ -14617,9 +14610,7 @@
      margin-bottom: 20px;
      padding: 27px 0 25px 0;
 }
- .vs-accordion.two .accordion-item:last-child {
-     margin-bottom: 0;
-}
+
  .vs-accordion.two .accordion-item .accordion-header .accordion-button {
      padding: 0 30px;
      font-size: 20px;
