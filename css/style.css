@@ -3466,6 +3466,7 @@ textarea.form-control.is-invalid {
   width: 100%;
   height: 100%;
   background-image: url(../images/pattern3-1.png);
+  opacity: 0.2;
   z-index: -1;
 }
 .newsletter-section:after {
@@ -13900,7 +13901,7 @@ body {
 .form-box-two {
   position: relative;
   border-radius: 10px;
-  background: #8700FD;
+  background:#b800ff;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.09);
           box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.09);
   padding: 20px;
@@ -13933,7 +13934,7 @@ body {
 .form-box-two .form-group button {
   height: 55px;
   line-height: 55px;
-  background-color: var(--theme-color);
+  background-color: #8700FD;
   color: var(--white-color);
   font-weight: 700;
   width: 100%;
@@ -18410,4 +18411,12 @@ footer .subscribe-form1.v6 .form-group{
   .hero-form{
     padding-inline: 0;
   }
+}
+
+.service-card6 .icon-box img{
+  height: 35px;
+  width: 35px;
+}
+.service-card6:hover .icon-box img {
+    filter: invert(1) sepia(1) saturate(500%) hue-rotate(270deg) brightness(0.9);
 }
