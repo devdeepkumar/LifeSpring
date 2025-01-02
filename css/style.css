@@ -3374,9 +3374,9 @@
          padding: 30px 20px;
     }
 }
- .footer-widget {
+ /* .footer-widget {
      margin-bottom: 50px;
-}
+} */
  .footer-widget, .footer-widget .widget {
      padding: 0;
      border: none;
@@ -5481,7 +5481,7 @@
      font-weight: 600;
 }
  .widget-area.v6 {
-     margin-bottom: 60px;
+     margin-bottom: 30px;
     /* Medium devices */
     /* Small devices */
     /* Extra small devices */
@@ -12938,6 +12938,7 @@
 }
  .subscribe-form1 {
      overflow: hidden;
+     margin-top: 34px;
 }
  .subscribe-form1 .form-inner {
      background-color: var(--white-color);
