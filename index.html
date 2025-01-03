@@ -3,8 +3,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>LIifeSpring IVF </title>
     <meta name="author" content="Vecuro">
-    <meta name="description" content="Medixi - Medical and Health Care HTML Template">
-    <meta name="keywords" content="Medixi - Medical and Health Care HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
 
     <!-- Mobile Specific Metas -->
@@ -97,7 +95,7 @@
                        
                     </li>
                     <li >
-                        <a href="review">Reviews</a>
+                        <a href="#review">Reviews</a>
                         
                     </li>
                     <li>
@@ -286,29 +284,28 @@
                 <a href="#services" class="btn-style wow fadeInUp" data-wow-delay="500ms">Discover Our Services</a>
             </div>
             <div class="hero-form col-lg-5">
-                <form action="#" class="form-wrap1">
+            <form action="mail.php" method="POST" class="form-wrap1">
                 <div class="form-box-two">
                     <div class="row">
-                        <div class="form-group wow fadeInUp" data-wow-delay="400ms">
-                            <input type="text" class="form-control  style2" placeholder="Your Name">
+                        <div class="form-group wow fadeInUp animated" data-wow-delay="400ms">
+                            <input type="text" name="name" class="form-control style2" placeholder="Your Name" required>
                             <i class="fal small fa-user"></i>
                         </div>
-                        <div class=" form-group wow fadeInUp" data-wow-delay="500ms">
-                            <input type="email" class="form-control  style2" placeholder="Email Address">
+                        <div class="form-group wow fadeInUp animated" data-wow-delay="500ms">
+                            <input type="email" name="email" class="form-control style2" placeholder="Email Address" required>
                             <i class="fal small fa-envelope"></i>
                         </div>
-                        <div class=" form-group wow fadeInUp" data-wow-delay="600ms">
-                            <input type="number" class="form-control  style2" placeholder="Phone Number">
+                        <div class="form-group wow fadeInUp animated" data-wow-delay="600ms">
+                            <input type="number" name="phone" class="form-control style2" placeholder="Phone Number" required>
                             <i class="fal small fa-phone"></i>
                         </div>
-                        <div class=" form-group wow fadeInUp" data-wow-delay="700ms">
-                            <input type="text" class="dateTime-pick form-control  style2" placeholder="Select Date & Time">
+                        <div class="form-group wow fadeInUp animated" data-wow-delay="700ms">
+                            <input type="text" name="datetime" class="dateTime-pick form-control style2" placeholder="Select Date &amp; Time" required>
                             <i class="fal small fa-calendar-alt"></i>
                         </div>
-                        
-                        <div class="  form-group wow fadeInUp" data-wow-delay="700ms">
-                            <select class="form-select style2">
-                                <option hidden="" disabled="" selected="">Select Services</option>
+                        <div class="form-group wow fadeInUp animated" data-wow-delay="700ms">
+                            <select name="service" class="form-select style2" required>
+                                <option hidden disabled selected>Select Services</option>
                                 <option>IVF Treatments</option>
                                 <option>Egg Freezing</option>
                                 <option>Embryology Services</option>
@@ -319,12 +316,13 @@
                                 <option>Genetic Screening</option>
                             </select>
                         </div>
-                        <div class="  form-group wow fadeInUp" data-wow-delay="600ms">
+                        <div class="form-group wow fadeInUp animated" data-wow-delay="600ms">
                             <button type="submit" class="btn-style">Make Appointment</button>
                         </div>
                     </div>
                 </div>
             </form>
+
             </div>
         </div>
     </section>
@@ -366,13 +364,13 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                     <div class="about-img-6">
                         <div class="image-box v1">
-                            <img src="images/about6-1.jpg" alt="Medixi">
+                            <img src="images/about6-1.webp" alt="image">
                         </div>
                         <div class="image-box two">
                             <!-- <div class="header-call phone-box d-flex align-items-center style2">
                                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="popup-video box-icon style2"><i class="fas fa-play"></i></a>
                             </div> -->
-                            <img src="images/about6-2.jpg" alt="Medixi">
+                            <img src="images/about6-2.webp" alt="image">
                             <div class="exp-box top-animation">
                                 <h6>4+</h6>
                                 <span>Years Experience</span>
@@ -898,12 +896,13 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms">
-                    <form action="#" class="newsletter-form">
+                    <form action="newsletter.php" method="POST" class="newsletter-form">
                         <div class="form-group m-0">
-                            <input type="text" class="form-control  style2" placeholder="Enter Your Phone">
-                            <button type="submit" class="btn-style">Schedule now<i class="fa fa-paper-plane"></i></button>
+                            <input type="text" name="phone" class="form-control style2" placeholder="Enter Your Phone" required>
+                            <button type="submit" class="btn-style">Schedule now <i class="fa fa-paper-plane"></i></button>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -1066,13 +1065,14 @@
                     <div class="col-md-12 col-lg-4 widget-column wow fadeInRight" data-wow-delay="600ms">
                         <div class="widget footer-widget form-widget v6">
                             <h3 class="widget_title"> Request Call Back</h3>
-                            <form action="#" class="subscribe-form1 v6">
+                            <form action="callback.php" method="POST" class="subscribe-form1 v6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter Name">
-                                    <input type="text" class="form-control" placeholder="Enter Phone">
+                                    <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
+                                    <input type="text" name="phone" class="form-control" placeholder="Enter Phone" required>
                                 </div>
                                 <button class="btn-style" type="submit">Request Call Back</button>
                             </form>
+
                         </div>
                     </div>
                 </div>
